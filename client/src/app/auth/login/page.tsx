@@ -3,7 +3,7 @@ import { ChangeEvent, FormEvent, useState } from "react";
 import { ILoginData } from "./login.types";
 import { loginUser } from "@/lib/store/auth/authSlice";
 import { useAppDispatch, useAppSelector } from "@/lib/store/hooks";
-import { Status } from "@/lib/store/types/type";
+import { Status } from "@/lib/types/type";
 
 function Login() {
   const dispatch = useAppDispatch();
